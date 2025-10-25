@@ -18,3 +18,4 @@ Puis active **Settings → Pages** (branch `main`, dossier `/`).
 ## Search Console
 - Vérifie la propriété avec la **balise HTML** (à coller dans `<head>` de `index.html`).
 - Soumets le sitemap : `https://wizzwid.github.io/calculette-immo/sitemap.xml`.
+Déploiement Pages : OK
