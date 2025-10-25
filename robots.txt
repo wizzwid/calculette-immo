@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wizzwid.github.io/calculette-immo/sitemap.xml
