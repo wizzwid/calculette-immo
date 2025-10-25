@@ -7,8 +7,20 @@
   <meta name="description" content="Calculette Immo — site vierge prêt à être publié. Implémentez votre application ensuite. Optimisé pour un bon référencement (meta, sitemap, robots, structured data).">
   <link rel="canonical" href="https://wizzwid.github.io/calculette-immo/">
   <meta name="theme-color" content="#0ea5a4">
-  <!-- Google site verification: ajoute ici la meta fournie par Search Console -->
-  <!-- <meta name="google-site-verification" content="PASTE_TOKEN_HERE" /> -->
+
+  <!-- ✅ Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GSTWDG9DLW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GSTWDG9DLW');
+  </script>
+
+  <!-- ✅ Google Search Console -->
+  <!-- Remplace XXXXX par ton code de vérification fourni par Search Console -->
+  <meta name="google-site-verification" content="XXXXX" />
+
   <style>
     body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:40px; color:#0f172a; }
     header { margin-bottom: 24px; }
@@ -17,6 +29,7 @@
     footer { margin-top:40px; color:#475569; font-size:0.9rem; }
     pre { background:#f8fafc; padding:12px; border-radius:8px; overflow:auto; }
   </style>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
